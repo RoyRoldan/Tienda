@@ -14,6 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
  * @author quiro
  */
 public interface RegistroService {
+
     public Model activar(Model model, String usuario, String clave);
 
     public Model crearUsuario(Model model, Usuario usuario) throws MessagingException;

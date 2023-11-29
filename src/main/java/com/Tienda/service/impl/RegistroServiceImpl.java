@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.Tienda.service.impl;
 
 import com.Tienda.domain.Usuario;
@@ -69,7 +66,7 @@ public class RegistroServiceImpl implements RegistroService {
                             "usuarios", 
                             usuario.getIdUsuario()));
         }
-        usuarioService.save(usuario, false);
+        usuarioService.save(usuario, true);
     }
 
     @Override
@@ -194,4 +191,3 @@ public class RegistroServiceImpl implements RegistroService {
                 asunto, mensaje);
     }
 }
-
